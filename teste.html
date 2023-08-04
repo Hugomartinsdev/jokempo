@@ -1,0 +1,39 @@
+<!--modo teste para ver cqual fica melho, o outro é o  original-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <div style="background-color:rgb(235, 17, 206) ;"><center><h1>Jokempô</h1></center>
+    
+    <b>Escolha uma das opções</b><br><br>
+    <select id="escolha">
+        <option value="pedra">pedra</option>
+        <option value="papel">papel</option>
+        <option value="tesoura">tesoura</option>
+    </select><br><br>
+ <button onclick="partida()">comece a jogar</button><button style="margin-left: 10%;" onclick="apagar()">apagar</button></button><button style="margin-left: 10%;" onclick="reiniciar()">reiniciar</button>
+ <audio autoplay controls loop style="opacity: 0;">
+    <source src="WhatsApp Audio 2023-06-15 at 22.42.26.mpeg" type="audio/mpeg">
+</audio>
+</div>
+ <hr>
+
+<div style="background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGftb0cE0JmLq3vH5S3JUFINJe4EvaXXEiAM-5rjP_dA&s);background-repeat: no-repeat;background-size: contain;background-position: center;"> <center><label style="font-size: 20px;" id="r"><h2>Rodada:0</h2></label></center>
+ <p style="font-size: 30px;">A sua escolha:</p> <p style="margin-left: 80%;font-size: 30px;">A escolha do BOT</p>
+ <img style="height:120px; width: 120px;" id="ij"><!--escolha do jogador--><img style="margin-left: 80%;width: 120px;height: 120px;" id="ib" ><!-- escolhido pelo BOT--> <br>
+ <p style="font-size:30px;">A sua pontuação</p> <p style="margin-left: 80%;font-size: 30px;">A pontuação do BOT</p>
+ <label id="pj" style="font-size: 30px;"></label><label style="margin-left: 80%; font-size:30px ;" id="pb"></label><br>
+ <!--tentar um jeito de deixar opacidade 0 nas imagens, e quando a cionar o botão dar opacidade 1 -->
+ <label id="rfinal" style="font-size: 50px;margin-left: 30%;"></label><br>
+ <br><br><br><br><b><br><br><br><center><h2>Resultado</h2>
+ <label id="resultado" style="font-size: 30px;"></label><br><br><!--quem ganhou-->
+</center></div>
+
+</body>
+</html>
